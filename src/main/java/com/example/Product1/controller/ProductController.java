@@ -34,6 +34,7 @@ public class ProductController {
     @GetMapping("/products")
     public List<Product> findAllProducts() {
     	System.out.println("hi");
+    	System.out.println("hello");
     	
         return service.getProducts();
        
